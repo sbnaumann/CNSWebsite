@@ -1,0 +1,141 @@
+/* =Contact Form 
+-------------------------------------------------------------- */
+
+.contact-form {
+}
+
+.contact-form .field {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.contact-form .field label {
+	width: 160px;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #6c6a67;
+	display: inline-block;
+	padding-right: 30px;
+	text-align: right;
+}
+
+.contact-form .field input[type=text],
+.contact-form .field input[type=email],
+.contact-form .field textarea {
+	background: #f9f9f9;
+	border: 1px solid #CCC;
+	box-shadow: inset 2px 2px 1px rgba(0,0,0,0.05);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #555;
+	font-family: Verdana, sans-serif;
+	padding: 8px;
+}
+
+.contact-form .field input[type=text],
+.contact-form .field input[type=email] {
+	width: 250px;
+	
+	display: inline-block;
+}
+
+.contact-form .field.message label {
+	display: none;
+}
+
+.contact-form .field.message {
+	margin-left: 160px;
+}
+
+.contact-form .field textarea {
+	width: 100%;
+	
+}
+
+.contact-form .field input[type=submit] {
+	background: rgb(247,247,247);
+	background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(244,244,244,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,1)), color-stop(100%,rgba(244,244,244,1)));
+	background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(244,244,244,1) 100%);
+	background: -o-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(244,244,244,1) 100%);
+	background: -ms-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(244,244,244,1) 100%);
+	background: linear-gradient(top, rgba(247,247,247,1) 0%,rgba(244,244,244,1) 100%);
+	border: 1px solid #cbc9c9;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.06);
+	color: #525252;
+	cursor: pointer;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#f4f4f4',GradientType=0 );
+	font: bold 10px/1 "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin-left: 160px;
+	padding: 14px 20px;
+	text-shadow: 0 1px 0 #FFF;
+}
+
+/* =Comment Respond 
+-------------------------------------------------------------- */
+
+#comment-list #respond {
+	background: #EFEFEF;
+	border: 1px solid #E2E2E2;
+	padding: 20px;
+}
+
+#comment-list .comment #respond {
+	margin-left: 90px;
+}
+
+/* =Sprite Map Replacement 
+-------------------------------------------------------------- */
+
+#slider .indicators .indicator .pointer {
+	background: url('images/sprites.png') no-repeat 0 -16px;
+}
+
+#site-features .feature .icon {
+	background: url('images/sprites.png') no-repeat -31px -49px;
+}
+
+.home-loop .nav a.next {
+	background: url('images/sprites.png') no-repeat -56px 0;
+}
+
+.home-loop .nav a.prev {
+	background: url('images/sprites.png') no-repeat -31px 0;
+}
+
+#loop.loop-posts .post-main .read-more a i {
+	background: url('images/sprites.png') no-repeat 0 -22px;
+}
+
+#post-single.type-project #project-images .pagination li a {
+	background: url('images/sprites.png') no-repeat -11px -16px;
+}
+
+#post-single.type-project #project-images .pagination li.active a {
+	background: url('images/sprites.png') no-repeat -11px -28px;
+}
+
+.comment .avatar-container .shadow {
+	background: url('images/sprites.png') no-repeat -81px 0;
+}
+
+#footer .pointer {
+	background: url('images/sprites.png') no-repeat 0 0;
+}
+
+.flexslider .flex-direction-nav a.prev {
+	background: url('images/sprites.png') no-repeat -50px -22px;
+}
+
+.flexslider .flex-direction-nav a.next {
+	background: url('images/sprites.png') no-repeat -31px -22px;
+}
+
+#post-single.type-page.page-full-width .post-container {
+	width: 100%;
+	
+}
+
