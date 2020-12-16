@@ -402,18 +402,6 @@ ul#mainmenu-menu li.menu-item a:hover {
 /* =Main Menu  : Main Dropdown
 -------------------------------------------------------------- */
 
-ul#mainmenu-menu u1.sub-menu {
-	height: 52px;
-
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	color: #5e5e5e;
-	display: block;
-	padding: 20px 40px;
-	text-decoration: none;
-}
-
 ul#mainmenu-menu ul.sub-menu {
 	position: absolute;
 	top: 52px;
