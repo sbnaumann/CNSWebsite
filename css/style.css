@@ -333,16 +333,6 @@ ul#topbar-menu ul.sub-menu li a {
 
 ul#mainmenu-menu {
 	position: relative;
-
-	background: rgb(247,247,247);
-	background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(244,244,244,1) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,1)), color-stop(100%,rgba(244,244,244,1)));
-	background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(244,244,244,1) 100%);
-	background: -o-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(244,244,244,1) 100%);
-	background: -ms-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(244,244,244,1) 100%);
-	background: linear-gradient(top, rgba(247,247,247,1) 0%,rgba(244,244,244,1) 100%);
-	border: 1px solid #E2E2E2;
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#f4f4f4',GradientType=0 );
 }
 
 ul#mainmenu-menu li.menu-item {
@@ -412,7 +402,7 @@ ul#mainmenu-menu li.menu-item a:hover {
 /* =Main Menu  : Main Dropdown
 -------------------------------------------------------------- */
 
-ul#mainmenu-menu li.menu-item a {
+ul#mainmenu-menu u1.sub-menu {
 	height: 52px;
 
 	-webkit-box-sizing: border-box;
