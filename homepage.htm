@@ -356,13 +356,11 @@ body.home #logo h1 {
 }
 
 #mainmenu  * {
-	font: bold 18px "Larsseit", "Futura", "Century Gothic", "AppleGothic", Helvetica, Arial, sans-serif !important;
-	text-transform: capitalize;
 }
 
 #mainmenu #mainmenu-menu ul.menu * {
-	background: none !important;
-	border: none !important;
+	background: none;
+	border: none;
 }
 
 #mainmenu #mainmenu-menu li a {
@@ -370,127 +368,16 @@ body.home #logo h1 {
 /* top: 55%; */
 /* margin-top: -1.5em; */
 	text-align: center;
-	border-top: none !important;
-	border-left: 1px solid #E2E2E2 !important;
-	border-right: none !important;
+	border-top: none;
+	border-right: none;
 }
 
 #mainmenu #mainmenu-menu li:first-child a {
-	border-left: none !important;
+	border-left: none;
 }
 
 #mainmenu ul#mainmenu-menu li.menu-item a {
 	padding: 16px 5px;
-}
-
-/* ............................................................................................. */
-/* Highlight About tab as a breadcrumb - Updated September 15, 2015: */
-body.page-id-4589 li#menu-item-5812 {
-	color: #fff;
-	background: #fff !important;
-}
-
-body.page-id-4589 li#menu-item-5812 a {
-	border-bottom: 1px solid #fff !important;
-}
-
-/* ............................................................................................. */
-/* Highlight Research tab as a breadcrumb */
-body.blog li#menu-item-310 {
-	background: #fff !important;
-}
-
-body.blog li#menu-item-310 a {
-	border-bottom: 1px solid #fff !important;
-}
-
-/* ............................................................................................. */
-/* Highlight Events tab as a breadcrumb (for Events Page) - Updated June 7, 2020: */
-body.page-id-1396 li#menu-item-5124 {
-	background: #fff !important;
-}
-
-body.page-id-1396 li#menu-item-5124 a {
-	border-bottom: 1px solid #fff !important;
-	text-decoration: none !important;
-}
-
-/* ............................................................................................. */
-/* OLD Highlight Events tab as a breadcrumb (for old Events Archive-Page) - Updated September 15, 2015: */
-
-body.category-events li#menu-item-5124 {
-	background: #fff !important;
-}
-
-body.category-events li#menu-item-5124 a {
-	border-bottom: 1px solid #fff !important;
-	text-decoration: none !important;
-}
-
-/* ............................................................................................. */
-/* Highlight Education tab as a breadcrumb */
-body.page-id-21 li#menu-item-26 {
-	background: #fff !important;
-}
-
-body.page-id-21 li#menu-item-26 a {
-	border-bottom: 1px solid #fff !important;
-}
-
-/* ............................................................................................. */
-/* Highlight Experts tab as a breadcrumb */
-body.page-id-23 li#menu-item-25 {
-	background: #fff !important;
-}
-
-body.page-id-23 li#menu-item-25 a {
-	border-bottom: 1px solid #fff !important;
-}
-
-/* ............................................................................................. */
-/* Highlight Donate tab as a breadcrumb */
-body.page-id-304 li#menu-item-1293 {
-	background: #fff !important;
-}
-
-body.page-id-304 li#menu-item-1293 a {
-	border-bottom: 1px solid #fff !important;
-}
-
-/* ............................................................................................. */
-/* Overline About tab as a breadcrumb - Updated September 15, 2015: */
-body.parent-pageid-4589   li#menu-item-5812 a
-{
-	text-decoration: overline;
-}
-
-/* ............................................................................................. */
-/* Overline Research tab as a breadcrumb */
-body.single-post  li#menu-item-310 a {
-	text-decoration: overline;
-}
-
-/* ............................................................................................. */
-/* Overline Education tab as a breadcrumb - Updated September 15, 2015: */
-body.parent-pageid-21  li#menu-item-26 a,
-body.parent-pageid-5946  li#menu-item-26 a
-{
-	text-decoration: overline;
-}
-
-/* ............................................................................................. */
-/* Overline Events tab as a breadcrumb - Updated September 15, 2015: */
-body.events  li#menu-item-5124 a {
-	text-decoration: overline;
-}
-body.events  li#menu-item-310 a {
-	text-decoration: none;
-}
-
-/* ............................................................................................. */
-/* Overline Experts tab as a breadcrumb */
-body.parent-pageid-23  li#menu-item-25 a {
-	text-decoration: overline;
 }
 
 /* ------------------------------------------------------------------------------------------------
@@ -1727,12 +1614,14 @@ margin-left: 170px;
 
 <div id="mainmenu" class="scaled">
 	<div class="container">
-		<div class="menu-main-container"><ul id="mainmenu-menu" class="menu"><li id="menu-item-5812" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5812"><a href="https://nonproliferation.org/about-2/">About</a></li>
-<li id="menu-item-310" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310"><a href="https://nonproliferation.org/research/">Research</a></li>
-<li id="menu-item-5124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5124"><a href="/events/">Events</a></li>
-<li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://nonproliferation.org/education/">Education</a></li>
-<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://nonproliferation.org/experts/">Experts</a></li>
-<li id="menu-item-1293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1293"><a href="https://nonproliferation.org/donate/">Donate</a></li>
+		<div class="menu-main-container"><ul id="mainmenu-menu" class="menu">
+			<li id="text-item-1212" class="CNS-Text">CNS</li>
+			<li id="menu-item-5812" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5812"><a href="https://nonproliferation.org/about-2/">About</a></li>
+			<li id="menu-item-310" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310"><a href="https://nonproliferation.org/research/">Research</a></li>
+			<li id="menu-item-5124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5124"><a href="/events/">Events</a></li>
+			<li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://nonproliferation.org/education/">Education</a></li>
+			<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://nonproliferation.org/experts/">Experts</a></li>
+			<li id="menu-item-1293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1293"><a href="https://nonproliferation.org/donate/">Donate</a></li>
 <div class="clear"></div></ul></div>	</div>
 </div>
 	<div id="slider">

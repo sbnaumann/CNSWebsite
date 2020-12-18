@@ -335,16 +335,21 @@ ul#mainmenu-menu {
 	position: relative;
 }
 
+ul#mainmenu-menu li.CNS-Text{
+	position: relative;
+	font-size: 40px;
+}
+
 ul#mainmenu-menu li.menu-item {
 	position: relative;
 	border-right: 1px solid #E2E2E2;
 	display: block;
 	float: left;
-	font-size: 11px;
 	font-weight: bold;
 }
 
 ul#mainmenu-menu li.menu-item a {
+	font: bold 20px "Larsseit", "Futura", "Century Gothic", "AppleGothic", Helvetica, Arial, sans-serif;
 	color: #12131b;
 	display: block;
 	padding: 20px 40px;
