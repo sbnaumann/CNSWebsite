@@ -335,9 +335,19 @@ ul#mainmenu-menu {
 	position: relative;
 }
 
-ul#mainmenu-menu li.CNS-Text{
+ul#mainmenu-menu li.mainmenu-CNS-Text {
 	position: relative;
-	font-size: 40px;
+	padding-left: 40px;
+	padding-top: 20px;
+}
+
+ul#mainmenu-menu li.mainmenu-CNS-Text a {
+	font: 40px "Larsseit", sans-Serif;
+	color: #12131b;
+}
+
+ul#mainmenu-menu li.mainmenu-CNS-Text a:hover {
+	color: #005a87;
 }
 
 ul#mainmenu-menu li.menu-item {
@@ -352,7 +362,6 @@ ul#mainmenu-menu li.menu-item a {
 	font: bold 20px "Larsseit", "Futura", "Century Gothic", "AppleGothic", Helvetica, Arial, sans-serif;
 	color: #12131b;
 	display: block;
-	padding: 20px 40px;
 	text-decoration: none;
 }
 
