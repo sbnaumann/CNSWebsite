@@ -327,7 +327,6 @@ ul#topbar-menu ul.sub-menu li a {
 -------------------------------------------------------------- */
 
 #mainmenu {
-	margin: 35px 0;
 	word-wrap: break-word;
 }
 
@@ -335,82 +334,38 @@ ul#mainmenu-menu {
 	position: relative;
 }
 
-ul#mainmenu-menu li.mainmenu-CNS-Text {
+li#mainmenu-CNS-Text {
 	position: relative;
 	padding-left: 40px;
 	padding-top: 20px;
+	padding-right: none;
+	display:inline-block;
 }
 
-ul#mainmenu-menu li.mainmenu-CNS-Text a {
+li#mainmenu-CNS-Text a {
 	font: 40px "Larsseit", sans-Serif;
 	color: #12131b;
 }
 
-ul#mainmenu-menu li.mainmenu-CNS-Text a:hover {
+li#mainmenu-CNS-Text a:hover {
 	color: #005a87;
 }
 
 ul#mainmenu-menu li.menu-item {
 	position: relative;
-	border-right: 1px solid #E2E2E2;
-	display: block;
-	float: left;
+	display: inline-block;
 	font-weight: bold;
 }
 
 ul#mainmenu-menu li.menu-item a {
 	font: bold 20px "Larsseit", "Futura", "Century Gothic", "AppleGothic", Helvetica, Arial, sans-serif;
 	color: #12131b;
-	display: block;
+	display: inline-block;
 	text-decoration: none;
 }
 
 ul#mainmenu-menu li.menu-item a:hover {
 	color: #005a87;
-}
-
-/* =Main Menu  : Scaled Menu
--------------------------------------------------------------- */
-
-#mainmenu.scaled .container > div {
-	width: 100%;
-	height: 52px;
-
-	display: table;
-}
-
-#mainmenu.scaled ul#mainmenu-menu {
-	height: 52px;
-
-	display: table-row;
-}
-
-#mainmenu.scaled li.menu-item {
-	width: auto;
-	height: 52px;
-
-	border: none;
-	display: table-cell;
-	float: none;
-}
-
-#mainmenu.scaled li.menu-item a {
-	border: 1px solid #E2E2E2;
-	border-width: 1px 1px 1px 0;
-	text-align: center;
-}
-
-#mainmenu.scaled li.menu-item:first-child a {
-	border-left-width: 1px;
-}
-
-#mainmenu.scaled ul#mainmenu-menu ul.sub-menu li {
-	border-width: 0;
-	display: block;
-}
-
-#mainmenu.scaled ul#mainmenu-menu ul.sub-menu a {
-	border: none;
 }
 
 /* =Main Menu  : Main Dropdown
