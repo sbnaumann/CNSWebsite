@@ -328,17 +328,20 @@ ul#topbar-menu ul.sub-menu li a {
 
 #mainmenu {
 	word-wrap: break-word;
+	position: sticky;
+	top: 0;
+	z-index:1000;
+	width: 100%;
 }
 
 ul#mainmenu-menu {
 	position: relative;
+	text-align: center;
 }
 
 li#mainmenu-CNS-Text {
 	position: relative;
-	padding-left: 40px;
-	padding-top: 20px;
-	padding-right: none;
+	padding-top: 5px;
 	display:inline-block;
 }
 
@@ -355,6 +358,7 @@ ul#mainmenu-menu li.menu-item {
 	position: relative;
 	display: inline-block;
 	font-weight: bold;
+	padding-left: 40px;
 }
 
 ul#mainmenu-menu li.menu-item a {
